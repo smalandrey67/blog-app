@@ -1,0 +1,11 @@
+.signout{
+    &__button{
+        width: 100%;
+        background-color: var(--color-warning);
+        &:active{
+            background-color: var(--color-hover-warning);
+            opacity: 1;
+        }
+    }
+}
+

@@ -1,0 +1,45 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 200;
+    &__body{
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.form__user{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-cascade);
+    &-label{
+        display: block;
+        margin-bottom: 10px;
+    }
+    &-link{
+        display: block;
+        color: var(--color-cornflower);
+        text-decoration: underline;
+    }
+    &-input{
+        width: 100%;
+    }
+    &-button{
+        width: 100%;
+        margin-top: auto;
+    }
+    &-error{
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+}
+
+
+

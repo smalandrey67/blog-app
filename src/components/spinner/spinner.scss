@@ -1,0 +1,43 @@
+@keyframes ldio-hedrvl77ai7 {
+  0% { transform: translate(-50%,-50%) rotate(0deg); }
+  100% { transform: translate(-50%,-50%) rotate(360deg); }
+}
+.ldio-hedrvl77ai7 div {
+  position: absolute;
+  width: 66.56px;
+  height: 66.56px;
+  border: 6.24px solid #585858;
+  border-top-color: transparent;
+  border-radius: 50%;
+}
+.ldio-hedrvl77ai7 div {
+  animation: ldio-hedrvl77ai7 1s linear infinite;
+  top: 52px;
+  left: 52px
+}
+.loadingio-spinner-rolling-yc791tbznsf {
+  width: 104px;
+  height: 104px;
+  display: inline-block;
+  overflow: hidden;
+  background: none;
+}
+.ldio-hedrvl77ai7 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-hedrvl77ai7 div { box-sizing: content-box; }
+
+.spinner{
+  padding-top: 130px;
+  &__body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+  }
+}

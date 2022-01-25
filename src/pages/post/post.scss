@@ -1,0 +1,38 @@
+.post{
+    padding-top: 130px;
+    &__form{
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 17px;
+        background-color: var(--color-cascade);
+    }
+    &__label{
+        display: block;
+        margin-bottom: 10px;
+        position: relative;
+        &-file{
+            width: 200px;
+        }
+    }
+    &__subtitle{
+        padding-bottom: 5px;
+    }
+    &__progress{
+        position: absolute;
+        top: 8px;
+        right: -40px;
+        color: var(--color-main);
+    }
+
+    &__input{
+        width: 100%;
+        &-file{
+            display: none;
+        }
+    }
+    &__button{
+        background-color: #95A5A6;
+        width: 200px;
+        border-radius: 10px;
+    }
+}
